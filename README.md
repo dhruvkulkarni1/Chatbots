@@ -1,2 +1,2 @@
 # Chatbots
-Simple Chatbot based on a Fully-Connected DNN
+Simple Chatbot based on a Fully-Connected Deep Neural Network
