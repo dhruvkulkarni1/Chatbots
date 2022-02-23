@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, I am a chatbot. I answer questions about Dhruv.", "Hi there, how can I help? I can answer questions about Dhruv."]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Alright"],
+         "responses": ["See you later, thanks for your interest in Dhruv", "Come back with any more questions about Dhruv!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "location",
+         "patterns": ["What is your location?", "Where are you located?", "Where are you?", "Where are you willing to work?", "Where can you work?", "Can you work remotely?", "Do you do remote work?"],
+         "responses": ["I am currently based in Los Angeles, but I am open to working remotely."]
+        },
+        {"tag": "experience",
+         "patterns": ["What experience do you have?", "What's your work experience?", "What's your background?"],
+         "responses": ["I worked as a Data Science and SWE intern at Photon Commerce along with a couple other things, but you can find out more here: https://dhruvkulkarni.info/#experience"]
+        },
+        {"tag": "education",
+         "patterns": ["Where do you go to school?", "School?", "College?", "What school do you go to?", "Education?"],
+         "responses": ["I am a senior at North Hollywood High School. You can read more here: https://dhruvkulkarni.info/#education"]
+        },
+        {"tag": "skills-libraries",
+         "patterns": ["What skills do you have?", "What libraries do you work with?", "What programming languages do you know?", "What can you do?"],
+         "responses": ["I work with artificial intelligence and much more. Read more at https://dhruvkulkarni.info/#skills and https://dhruvkulkarni.info/#areas"]
+        },
+	{"tag": "real",
+         "patterns": ["Are you real?", "What are you?", "Who are you?", "Are you AI?"],
+         "responses": ["Responses are from a chatbot programmed by Dhruv Kulkarni. You can reach out to me at DhruvK0003@gmail.com or read more at https://dhruvkulkarni.info."]
+        },
+	{"tag": "contact",
+         "patterns": ["How do I reach you?", "How do I reach Dhruv?", "Contact?"],
+         "responses": ["You can reach me at DhruvK0003@gmail.com and I will answer your email as soon as I get it."]
+        },
+	{"tag": "how",
+         "patterns": ["How did he make you?", "How does this work?", "How do you work?", "How is this possible?", "How?"],
+         "responses": ["This was programmed using tensorflow and data Dhruv made. You can look at the code on my github: https://github.com/dhruvkulkarni1"]
+        },
+	{"tag": "who",
+         "patterns": ["Who is Dhruv?", "Tell me about Dhruv", "Tell me a little bit about Dhruv", "Dhruv?"],
+         "responses": ["Dhruv is an AI focused programmer. You can read more about him at https://dhruvkulkarni.info/#about"]
+        }
+   ]
+}
